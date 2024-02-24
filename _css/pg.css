@@ -9,22 +9,65 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+header img {
+    height: 100px;
+}
+    
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+nav {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
+    padding: 10px;
 }
 
+nav ul li:hover {
+    background-color: #ccc;
+
+}
 nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+/**/
+.botao-comprar {
+    display: inline-block;
+}
+
+
+
 
 .carousel {
     display: flex;
